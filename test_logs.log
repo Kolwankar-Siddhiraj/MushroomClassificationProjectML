@@ -1,0 +1,213 @@
+
+2021-09-07 <> 19:49:34<:>New Logger instance created !
+
+2021-09-07 <> 19:49:34 <:> INFO <:> Execution started Successfully !
+2021-09-07 <> 19:49:34 <:> INFO <:> Configuring MySQL Database settings !
+2021-09-07 <> 19:49:34 <:> INFO <:> Connecting Database MySQL !
+2021-09-07 <> 19:49:34 <:> INFO <:> Connected Database MySQL !
+
+2021-09-07 <> 19:52:54<:>New Logger instance created !
+
+2021-09-07 <> 19:52:54 <:> INFO <:> Execution started Successfully !
+2021-09-07 <> 19:52:54 <:> INFO <:> Configuring MySQL Database settings !
+2021-09-07 <> 19:52:54 <:> INFO <:> Connecting Database MySQL !
+2021-09-07 <> 19:52:55 <:> INFO <:> Connected Database MySQL !
+2021-09-07 <> 19:52:55 <:> INFO <:> Model <Mushroom_Classification_Model.pkl> loaded Successfully !
+
+2021-09-07 <> 19:53:02<:>New Logger instance created !
+
+2021-09-07 <> 19:53:02 <:> INFO <:> Execution started Successfully !
+2021-09-07 <> 19:53:02 <:> INFO <:> Configuring MySQL Database settings !
+2021-09-07 <> 19:53:02 <:> INFO <:> Connecting Database MySQL !
+2021-09-07 <> 19:53:02 <:> INFO <:> Connected Database MySQL !
+2021-09-07 <> 19:53:03 <:> INFO <:> Model <Mushroom_Classification_Model.pkl> loaded Successfully !
+2021-09-07 <> 19:53:38 <:> INFO <:> Rendering tamplate <index.html> !
+2021-09-07 <> 19:53:59 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 19:54:03 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 19:54:03 <:> INFO <:> Retriviwed all data from Database MySQL !
+2021-09-07 <> 19:54:03 <:> INFO <:> Collecting all retriviwed data !
+2021-09-07 <> 19:54:03 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 19:54:03 <:> INFO <:> Rendering tamplate <database.html> with all Data !
+
+2021-09-07 <> 19:57:02<:>New Logger instance created !
+
+2021-09-07 <> 19:57:02 <:> INFO <:> Execution started Successfully !
+2021-09-07 <> 19:57:02 <:> INFO <:> Configuring MySQL Database settings !
+2021-09-07 <> 19:57:02 <:> INFO <:> Connecting Database MySQL !
+2021-09-07 <> 19:57:02 <:> INFO <:> Connected Database MySQL !
+2021-09-07 <> 19:57:02 <:> INFO <:> Model <Mushroom_Classification_Model.pkl> loaded Successfully !
+
+2021-09-07 <> 19:57:09<:>New Logger instance created !
+
+2021-09-07 <> 19:57:09 <:> INFO <:> Execution started Successfully !
+2021-09-07 <> 19:57:10 <:> INFO <:> Configuring MySQL Database settings !
+2021-09-07 <> 19:57:10 <:> INFO <:> Connecting Database MySQL !
+2021-09-07 <> 19:57:10 <:> INFO <:> Connected Database MySQL !
+2021-09-07 <> 19:57:10 <:> INFO <:> Model <Mushroom_Classification_Model.pkl> loaded Successfully !
+2021-09-07 <> 19:57:18 <:> INFO <:> Rendering tamplate <index.html> !
+
+2021-09-07 <> 19:58:25<:>New Logger instance created !
+
+2021-09-07 <> 19:58:25 <:> INFO <:> Execution started Successfully !
+2021-09-07 <> 19:58:26 <:> INFO <:> Configuring MySQL Database settings !
+2021-09-07 <> 19:58:26 <:> INFO <:> Connecting Database MySQL !
+2021-09-07 <> 19:58:26 <:> INFO <:> Connected Database MySQL !
+2021-09-07 <> 19:58:26 <:> INFO <:> Model <Mushroom_Classification_Model.pkl> loaded Successfully !
+
+2021-09-07 <> 19:58:34<:>New Logger instance created !
+
+2021-09-07 <> 19:58:34 <:> INFO <:> Execution started Successfully !
+2021-09-07 <> 19:58:34 <:> INFO <:> Configuring MySQL Database settings !
+2021-09-07 <> 19:58:34 <:> INFO <:> Connecting Database MySQL !
+2021-09-07 <> 19:58:34 <:> INFO <:> Connected Database MySQL !
+2021-09-07 <> 19:58:34 <:> INFO <:> Model <Mushroom_Classification_Model.pkl> loaded Successfully !
+2021-09-07 <> 19:58:43 <:> INFO <:> Rendering tamplate <index.html> !
+2021-09-07 <> 19:59:07 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 19:59:07 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 19:59:07 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 19:59:08 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 19:59:08 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 19:59:09 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 19:59:09 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 19:59:09 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 19:59:09 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 19:59:27 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 19:59:27 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 19:59:27 <:> INFO <:> Retriviwed all data from Database MySQL !
+2021-09-07 <> 19:59:27 <:> INFO <:> Collecting all retriviwed data !
+2021-09-07 <> 19:59:27 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 19:59:27 <:> INFO <:> Rendering tamplate <database.html> with all Data !
+2021-09-07 <> 20:48:03 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 20:48:04 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 20:48:04 <:> INFO <:> Retriviwed all data from Database MySQL !
+2021-09-07 <> 20:48:04 <:> INFO <:> Collecting all retriviwed data !
+2021-09-07 <> 20:48:04 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 20:48:05 <:> INFO <:> Rendering tamplate <database.html> with all Data !
+2021-09-07 <> 20:48:11 <:> INFO <:> Rendering tamplate <index.html> !
+2021-09-07 <> 20:48:36 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 20:48:36 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 20:48:37 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 20:48:37 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 20:48:38 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 20:48:38 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 20:48:38 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 20:48:39 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 20:48:39 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 20:50:55 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 20:50:56 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 20:50:56 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 20:50:56 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 20:50:56 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 20:50:57 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 20:50:57 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 20:50:57 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 20:50:57 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 20:52:25 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 20:52:25 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 20:52:27 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 20:52:27 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 20:52:27 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 20:52:27 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 20:52:27 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 20:52:27 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 20:52:27 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 20:52:58 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 20:52:58 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 20:52:58 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 20:52:58 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 20:52:59 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 20:52:59 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 20:52:59 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 20:52:59 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 20:52:59 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 20:54:04 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 20:54:04 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 20:54:04 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 20:54:04 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 20:54:04 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 20:54:05 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 20:54:05 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 20:54:05 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 20:54:05 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 20:55:46 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 20:55:46 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 20:55:46 <:> INFO <:> Retriviwed all data from Database MySQL !
+2021-09-07 <> 20:55:46 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 20:55:46 <:> INFO <:> Rendering tamplate <database.html> with all Data !
+2021-09-07 <> 21:32:30 <:> INFO <:> Rendering tamplate <index.html> !
+2021-09-07 <> 21:33:23 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 21:33:23 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 21:33:23 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 21:33:24 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 21:33:24 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 21:33:25 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 21:33:25 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 21:33:25 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 21:33:25 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 21:33:57 <:> INFO <:> Rendering tamplate <index.html> !
+2021-09-07 <> 21:34:02 <:> INFO <:> Rendering tamplate <index.html> !
+2021-09-07 <> 21:35:18 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 21:35:18 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 21:35:18 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 21:35:18 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 21:35:18 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 21:35:18 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 21:35:18 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 21:35:18 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 21:35:18 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 21:35:38 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 21:35:38 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 21:35:38 <:> INFO <:> Retriviwed all data from Database MySQL !
+2021-09-07 <> 21:35:38 <:> INFO <:> Collecting all retriviwed data !
+2021-09-07 <> 21:35:40 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 21:35:40 <:> INFO <:> Rendering tamplate <database.html> with all Data !
+2021-09-07 <> 21:36:48 <:> INFO <:> Rendering tamplate <index.html> !
+2021-09-07 <> 21:37:21 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 21:37:21 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 21:37:21 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 21:37:21 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 21:37:23 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 21:37:23 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 21:37:23 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 21:37:23 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 21:37:23 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 21:37:58 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 21:37:58 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 21:37:58 <:> INFO <:> Retriviwed all data from Database MySQL !
+2021-09-07 <> 21:37:58 <:> INFO <:> Collecting all retriviwed data !
+2021-09-07 <> 21:37:58 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 21:37:58 <:> INFO <:> Rendering tamplate <database.html> with all Data !
+2021-09-07 <> 21:39:30 <:> INFO <:> Rendering tamplate <index.html> !
+2021-09-07 <> 21:40:14 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 21:40:14 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 21:40:14 <:> INFO <:> Retriviwed all data from Database MySQL !
+2021-09-07 <> 21:40:14 <:> INFO <:> Collecting all retriviwed data !
+2021-09-07 <> 21:40:14 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 21:40:14 <:> INFO <:> Rendering tamplate <database.html> with all Data !
+2021-09-07 <> 21:40:24 <:> INFO <:> Rendering tamplate <index.html> !
+2021-09-07 <> 21:41:37 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 21:41:37 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 21:41:37 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 21:41:37 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 21:41:37 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 21:41:38 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 21:41:38 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 21:41:38 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 21:41:38 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 21:43:29 <:> INFO <:> Rendering tamplate <index.html> !
+2021-09-07 <> 21:44:08 <:> INFO <:> Prediction started Successfully !
+2021-09-07 <> 21:44:08 <:> INFO <:> Information collected Successfully !
+2021-09-07 <> 21:44:08 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 21:44:08 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 21:44:09 <:> INFO <:> Inserted values to Database MySQL !
+2021-09-07 <> 21:44:09 <:> INFO <:> Commiting Database MySQL !
+2021-09-07 <> 21:44:10 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 21:44:10 <:> INFO <:> Prediction completed Successfully !
+2021-09-07 <> 21:44:10 <:> INFO <:> Rendering tamplate <index.html> with Predection !
+2021-09-07 <> 21:44:58 <:> INFO <:> Creating cursor to access Database MySQL !
+2021-09-07 <> 21:44:58 <:> INFO <:> Cursor created successfully !
+2021-09-07 <> 21:44:58 <:> INFO <:> Retriviwed all data from Database MySQL !
+2021-09-07 <> 21:44:58 <:> INFO <:> Collecting all retriviwed data !
+2021-09-07 <> 21:44:58 <:> INFO <:> Closing the cursor !
+2021-09-07 <> 21:44:58 <:> INFO <:> Rendering tamplate <database.html> with all Data !
+2021-09-07 <> 21:46:14 <:> INFO <:> Rendering tamplate <index.html> !

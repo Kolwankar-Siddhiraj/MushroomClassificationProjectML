@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/extra_style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        /* Create two equal columns that sits next to each other */
+        .column {
+            flex: 50%;
+            padding: 10px;
+            height: 100%;
+            /* Should be removed. Only for demonstration */
+        }
+
+        #btn_div {
+            height: 100px;
+            width: 100%;
+        }
+
+        #btn_sbmt {
+            height: 75px;
+            width: 200px;
+            border: 3px solid orange;
+            border-radius: 21px;
+            padding: 10px;
+            margin: 30px;
+        }
+
+        body {
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #F0F8FF;
+            border: none;
+            color: black;
+            text-align: center;
+            font-size: 21px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #90EE90;
+            color: white;
+        }
+    </style>
+
+    <style>
+        #div1 {
+            width: 300px;
+            border: 15px groove gold;
+            padding: 50px;
+            margin: 20px;
+        }
+    </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/577845f6a5.js" crossorigin="anonymous">
+    </script>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+    </script>
+</head>
+
+
+<body background="static/images/mashroom3.jpg">
+
+    <div>
+
+        <div style="height: 120px; width: 100%; padding: 30px;  ">
+            <center>
+                <h1 style="font-family: Stencil Std, fantasy;"> Mushroom Classification </h1>
+            </center>
+        </div>
+
+        <center>
+            <h2> {{result}} </h2>
+        </center>
+
+
+        <div class="row">
+            <div class="column">
+
+                <div>
+                    <form action="/predict" method="POST">
+                        <center>
+                            <h2 style="font-family: Garamond, serif; font-weight: bold;">Gill Color</h2>
+                            <!-- <label>Gill Color</label> -->
+                            <select id="gill-color" name="gill-color" class="custom-select" style="width:150px;">
+                                <option value="" selected disabled hidden> Select </option>
+                                <option value="4">Black</option>
+                                <option value="5">Brown</option>
+                                <option value="0">Buff</option>
+                                <option value="3">Chocolate</option>
+                                <option value="2">Gray</option>
+                                <option value="8">Green</option>
+                                <option value="6">Orange</option>
+                                <option value="7">Pink</option>
+                                <option value="9">Purple</option>
+                                <option value="1">Red</option>
+                                <option value="10">White</option>
+                                <option value="11">Yellow</option>
+                            </select>
+                        </center>
+
+                </div>
+                <br>
+
+                <div>
+                    <center>
+                        <h2 style="font-family: Garamond, serif; font-weight: bold;">Population</h2>
+                        <!-- <label>population</label> -->
+                        <select id="population" name="population" class="custom-select" style="width:150px;" required>
+                            <option value="" selected disabled hidden> Select </option>
+
+                            <option value="0">abundant</option>
+                            <option value="1">clustered</option>
+                            <option value="2">numerous</option>
+                            <option value="3">scattered</option>
+                            <option value="4">several</option>
+                            <option value="5">solitary</option>
+
+                        </select>
+
+                    </center>
+                </div>
+                <br>
+
+                <div>
+                    <center>
+                        <h2 style="font-family: Garamond, serif; font-weight: bold;">Gill size</h2>
+                        <!-- <label>Gill size</label> -->
+                        <select id="gill-size" name="gill-size" class="custom-select" style="width:150px;" required>
+
+                            <option value="" selected disabled hidden>Select</option>
+
+                            <option value="0">broad</option>
+                            <option value="1">narrow</option>
+                        </select>
+
+                    </center>
+                </div>
+                <br>
+
+
+                <!-- <h2>Column 1</h2>
+                <p>Some text..</p> -->
+            </div>
+
+
+
+            <div class="column">
+                <div>
+                    <center>
+                        <h2 style="font-family: Garamond, serif; font-weight: bold;">Spore print color</h2>
+                        <!-- <label style="margin-right: 2px;">Spore print color</label> -->
+                        <select id="spore-print-color" name="spore-print-color" class="custom-select"
+                            style="width:150px;" required>
+                            <option value="">Select</option>
+                            <option value="2">Black</option>
+                            <option value="3">Brown</option>
+                            <option value="4">Buff</option>
+                            <option value="1">Chocolate</option>
+                            <option value="5">Green</option>
+                            <option value="8">Orange</option>
+                            <option value="6">Purple</option>
+                            <option value="7">White</option>
+                            <option value="0">Yellow</option>
+
+                        </select>
+
+                    </center>
+                </div>
+                <br>
+
+                <div>
+                    <center>
+                        <h2 style="font-family: Garamond, serif; font-weight: bold;">Stalk root</h2>
+                        <!-- <label>Stalk root</label> -->
+                        <select id="stalk-root" name="stalk-root" class="custom-select" style="width:150px;" required>
+                            <option value="" selected disabled hidden>Select</option>
+
+                            <option value="0">missing</option>
+                            <option value="1">bulbous</option>
+                            <option value="2">club</option>
+                            <option value="3">equal</option>
+                            <option value="4">rooted</option>
+                        </select>
+
+                    </center>
+                </div>
+                <br>
+
+                <div>
+                    <center>
+                        <h2 style="font-family: Garamond, serif; font-weight: bold;">Bruises</h2>
+                        <!-- <label>Bruises</label> -->
+                        <select id="bruises" name="bruises" class="custom-select" style="width:150px;" required>
+                            <option value="" selected disabled hidden> Select </option>
+
+                            <option value="1">Yes</option>
+                            <option value="0">No</option>
+
+                        </select>
+
+                    </center>
+                </div>
+                <br>
+
+                <!-- <h2>Column 2</h2>
+                <p>Some text..</p> -->
+            </div>
+        </div>
+
+
+        <br>
+        <div>
+            <center>
+                <h2 style="font-family: Garamond, serif; font-weight: bold;">Stalk shape</h2>
+                <!-- <label> Stalk shape </label> -->
+                <select id="stalk-shape" name="stalk-shape" class="custom-select" style="width:150px;" required>
+                    <option value="" selected disabled hidden> Select </option>
+
+                    <option value="0">enlarging</option>
+                    <option value="1">tapering</option>
+
+                </select>
+
+            </center>
+        </div>
+        <br>
+        <br>
+
+
+        <!-- New Button -->
+        <!-- 
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <form>
+                <button type="submit" class="btn btn-warning btn-lg btn-block">Click Me</button>
+            </form>
+
+            <form class="mt-4">
+                <button type="submit" class="btn btn-outline-primary btn-lg btn-block">Click Me</button>
+            </form>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+        <!-- GIF start -->
+
+        <!-- 
+<style>
+
+#div_gif {
+  height: 75px;
+  width: 75px;
+  align-items: center;
+  overflow: visible;
+  visibility: visible;
+  border: 2px solid black;
+}
+
+</style>
+
+
+<div id="div_gif" background="static/mushrooms.gif">
+
+</div>
+ -->
+
+
+        <!-- GIF end -->
+
+
+        <!-- My button -->
+
+
+        <div id="btn_div">
+
+            <center>
+                <!-- <button id="btn_sbmt" type="submit">
+            Predict
+          </button> -->
+
+                <button id="btn_sbmt" class="btn" type="submit">
+                    <h3> <b> Predict </b> </h3>
+                </button>
+
+                <br> <br> <br> <br>
+
+                <!--                 
+                <h2 style="color: #110601  ">
+                    <center> {{result}} </center>
+                </h2>
+             -->
+
+            </center>
+            </form>
+
+            <center>
+                <h6><b> Pankaj M Jaiswal & Siddhiraj R Kolwankar </b></h6>
+                <p> <b> &copy; Mushroom Classification </b> </p>
+                <br>
+            </center>
+
+        </div>
+
+        <!--<center>
+    <a href="/webapp"><h1>Get Result</h1></a>
+    </center> -->
+
+    </div>
+
+
+    <!-- Split Screen end -->
+
+</body>
+
+</html>

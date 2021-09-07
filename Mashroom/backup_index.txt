@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="static/style.css">
+<style>
+    #div1 {
+        width: 300px;
+        border: 15px groove  gold;
+        padding: 50px;
+        margin: 20px;
+      }
+
+</style>
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<script src="https://kit.fontawesome.com/577845f6a5.js"
+		crossorigin="anonymous">
+	</script>
+
+	<!-- Optional JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js">
+	</script>
+	<script src=
+"https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+	</script>
+	<script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js">
+	</script>
+</head>
+
+<body background="static/images/mushrooms.jpg">
+    <center>
+        <div id="div1">
+        <br>
+
+        
+
+        <br>
+
+    <label>Gill Color</label>
+	<select id="gill-color" name="gill-color" class="custom-select"	style="width:150px;">
+		<option value="" selected disabled hidden> Select </option>
+
+        <option value="4">Black</option>
+        <option value="5">Brown</option>
+        <option value="0">Buff</option>
+        <option value="3">Chocolate</option>
+        <option value="2">Gray</option>
+        <option value="8">Green</option>
+        <option value="6">Orange</option>
+        <option value="7">Pink</option>
+        <option value="9">Purple</option>
+        <option value="1">Red</option>
+        <option value="10">White</option>
+        <option value="11">Yellow</option>
+	</select>
+    <br><br>
+
+    <label style="margin-right: 2px;">Spore print color</label>
+          <select id="spore-print-color" name="spore-print-color" class="custom-select"	style="width:150px;" required>
+            <option value="">Select</option>
+            <option value="2">Black</option>
+            <option value="3">Brown</option>
+            <option value="4">Buff</option>
+            <option value="1">Chocolate</option>
+            <option value="5">Green</option>
+            <option value="8">Orange</option>
+            <option value="6">Purple</option>
+            <option value="7">White</option>
+            <option value="0">Yellow</option>
+
+          </select>
+        <br><br>
+
+  
+
+
+<label>population</label>
+<select id="population" name="population"  class="custom-select" style="width:150px;" required>
+<option value="" selected disabled hidden> Select </option>
+
+    <option value="0">abundant</option>
+    <option value="1">clustered</option>
+    <option value="2">numerous</option>
+    <option value="3">scattered</option>
+    <option value="4">several</option>
+    <option value="5">solitary</option>
+
+</select>
+<br><br>
+
+<label>Gill size</label>
+<select id="gill-size" name="gill-size" class="custom-select" style="width:150px;"  required>
+
+    <option value="" selected disabled hidden>Select</option>
+
+    <option value="0">broad</option>
+    <option value="1">narrow</option>
+</select>
+<br><br>
+
+<label>Stalk root</label>
+<select id="stalk-root" name="stalk-root" class="custom-select" style="width:150px;"  required>
+  <option value="" selected disabled hidden>Select</option>
+
+    <option value="0">missing</option>
+    <option value="1">bulbous</option>
+    <option value="2">club</option>
+    <option value="3">equal</option>
+    <option value="4">rooted</option>
+</select>
+<br><br>
+  <label>Bruises </label>
+
+<select id="bruises" name="bruises" class="custom-select" style="width:150px;"   required>
+  <option value="" selected disabled hidden> Select </option>
+
+    <option value="1">Yes</option>
+    <option value="0">No</option>
+
+</select>
+<br><br>
+
+<label> Stalk shape </label>
+<select id="stalk-shape" name="stalk-shape" class="custom-select" style="width:150px;"  required>
+  <option value="" selected disabled hidden> Select </option>
+
+    <option value="0">enlarging</option>
+    <option value="1">tapering</option>
+
+</select>
+<br>
+<br>
+    <a href="./"> <img src="{{url_for('static', filename='/mushrooms.gif')}}"  width="80"  height="100" class="responsive"align="middle"></a>
+    <br>
+    <section class="prediction">
+        <a href='/webapp'><button class="btn btn-app">MUSHROOM CLASSIFICATION</button></a>
+    
+    </section>
+    
+</div>
+
+</center>
+
+
+</body>
+
+</html>

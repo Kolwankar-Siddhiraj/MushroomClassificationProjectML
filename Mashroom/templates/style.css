@@ -1,0 +1,101 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  transition: all .5s;
+}
+
+section:hover {
+  flex: 2;
+}
+
+.About {
+  background: url('developer.jpeg') #09ff78;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  link: "about.html"
+}
+
+.prediction {
+  background: url('image.jpeg') #c8d2e7;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.github {
+  background: url('git1.jpeg') #09ff78;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.btn {
+  color: #000000;
+  border: 1px;
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.btn-abt {
+  background: #D2E8F5;
+  box-shadow: 0 0 10px #D2E8F5;
+}
+
+.btn-abt:hover {
+  box-shadow: 0 0 5px #D2E8F5, 0 0 25px #D2E8F5, 0 0 50px #D2E8F5, 0 0 100px #D2E8F5;
+}
+
+.btn-app {
+  background: #D2E8F5;
+  box-shadow: 0 0 10px #D2E8F5;
+}
+
+.btn-app:hover {
+  box-shadow: 0 0 5px #D2E8F5, 0 0 25px #D2E8F5, 0 0 50px #D2E8F5, 0 0 100px #D2E8F5;
+}
+
+.btn-git {
+  background: #D2E8F5;
+  box-shadow: 0 0 10px #D2E8F5;
+}
+
+.btn-git:hover {
+  box-shadow: 0 0 5px #D2E8F5, 0 0 25px #D2E8F5, 0 0 50px #D2E8F5, 0 0 100px #D2E8F5;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
