@@ -112,7 +112,7 @@ def predict():
 
         if m==0:
             log.addLog("INFO", "Prediction completed Successfully !")
-            log.addLog("INFO", "Rendering tamplate <index.html> with Predection !")
+            log.addLog("INFO", "Rendering tamplate <index.html> with Predection !") 
         
             return render_template("index.html", result='Your mushroom is edible !')
         else:
