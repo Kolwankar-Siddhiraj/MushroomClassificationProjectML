@@ -3,7 +3,7 @@ from datetime import datetime
 class Logs:
 
     def __init__(self, file):
-        self.filename = file
+        self.filename = file 
         now = datetime.now()
         current_time = now.strftime("%Y-%m-%d <> %H:%M:%S")
         file_obj = open(self.filename, "a+")
