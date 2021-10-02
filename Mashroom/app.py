@@ -94,7 +94,7 @@ def predict():
 
 
         try:
-            # creating a cursor to add info to database MySQL
+            # creating a cursor to add info to database MySQL  
             log.addLog("INFO", "Creating cursor to access Database MySQL !")
             crsr = mysql.connection.cursor()
             log.addLog("INFO", "Cursor created successfully !")
