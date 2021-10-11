@@ -98,7 +98,7 @@
 
     <option value="0">broad</option>
     <option value="1">narrow</option>
-</select>
+</select> 
 <br><br>
 
 <label>Stalk root</label>
