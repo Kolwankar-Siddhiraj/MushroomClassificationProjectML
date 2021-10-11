@@ -22,7 +22,7 @@ app.config['MYSQL_PASSWORD'] = 'password123'
 app.config['MYSQL_DB'] = 'mushroom'
 
 
-# creating object of MySQL
+# creating object of MySQL 
 
 log.addLog("INFO", "Connecting Database MySQL !")
 mysql = MySQL(app)
