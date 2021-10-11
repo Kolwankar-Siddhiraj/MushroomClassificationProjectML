@@ -1,7 +1,7 @@
 from flask import Flask,request,render_template
 import numpy as  np
 import pandas  as pd
-import pickle
+import pickle 
 from sklearn.tree import DecisionTreeClassifier
 from Logger.logger import Logs
 from flask_mysqldb import MySQL
