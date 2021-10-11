@@ -19,3 +19,5 @@ class Logs:
         logfile = open(self.filename, "a+")
         logfile.write(current_time + " <:> " + log_level + " <:> " + log_message + "\n")
         logfile.close()
+
+        
