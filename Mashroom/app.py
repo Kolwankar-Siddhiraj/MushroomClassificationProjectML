@@ -24,6 +24,7 @@ app.config['MYSQL_DB'] = 'mushroom'
 
 # creating object of MySQL 
 
+
 log.addLog("INFO", "Connecting Database MySQL !")
 mysql = MySQL(app)
 log.addLog("INFO", "Connected Database MySQL !")
