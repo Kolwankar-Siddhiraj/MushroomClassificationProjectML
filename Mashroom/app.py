@@ -39,7 +39,6 @@ bruises_list = {0:"NO", 1:"Yes"}
 stalkshape_list = {0:"Enlarging", 1:"Tapering"}
 
 
-
 model=pickle.load(open("Mushroom_Classification_Model.pkl","rb"))
 log.addLog("INFO", "Model <Mushroom_Classification_Model.pkl> loaded Successfully !")
 
