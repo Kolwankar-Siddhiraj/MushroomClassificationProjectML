@@ -12,7 +12,7 @@ log.addLog("INFO", "Execution started Successfully !")
 
 
 app=Flask(__name__)
- 
+
 
 log.addLog("INFO", "Configuring MySQL Database settings !")
 
