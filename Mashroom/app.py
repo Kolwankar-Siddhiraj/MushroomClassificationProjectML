@@ -7,6 +7,7 @@ from Logger.logger import Logs
 from flask_mysqldb import MySQL
 
 
+
 log = Logs("test_logs.log")
 log.addLog("INFO", "Execution started Successfully !")
 
