@@ -43,6 +43,7 @@ model=pickle.load(open("Mushroom_Classification_Model.pkl","rb"))
 log.addLog("INFO", "Model <Mushroom_Classification_Model.pkl> loaded Successfully !")
 
 
+
 @app.route("/")
 def home():
     log.addLog("INFO", "Rendering tamplate <index.html> !")
