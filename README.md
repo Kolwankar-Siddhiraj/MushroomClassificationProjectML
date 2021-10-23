@@ -2,7 +2,9 @@
 
 ## Problem Statement:
 
-<p>In the modern world,travelling through flights has become an major part of today's lifestyle as most of the people don't want to waste their time on travelling so they opting flight even for short distance instead of train or bus.he flight ticket prices increase or decrease every now and then depending on various factors like timing of the flights, destination, and duration of flights various occasions such as vacations or festive season.Therefore this Project will help the ones who are planning for trip to save money and time.</p>
+<p>Mushroom is one of the fungi types foods that has the most potent nutrients on the planet. Mushrooms have major medicinal advantages such as killing cancer cells. This study aims to find the most appropriate technique for mushroom classification, and mushroom will be classified into two categories, Poisonous and Edible.
+
+Where the dataset contains different features of the mushrooms like gillcolor, sporeprintcolor, population, gillsize, stalk root, bruises, stalkshape etc. The proposed approach will implement a different techniques and algorithms like Decision Tree, Random Forest and Boosting Techniques. Random Forest performed well with 100% accuracy. After we have done hyperparameter tuning and it is deployed on Amazon Web Services (AWS) platform.</p>
 
 
 ## Approach used
