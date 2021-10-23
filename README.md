@@ -14,8 +14,8 @@ Where the dataset contains different features of the mushrooms like gillcolor, s
 <li> Data Exploration     : I started exploring dataset using pandas,numpy,matplotlib and seaborn. </li>
 <li> Data visualization   : Ploted graphs to get insights about dependend and independed variables. </li>
 <li> Feature Engineering  :  Removed missing values and created new features as per insights.</li>
-<li> Model Selection I    :1. Tested all base models to check the base accuracy.
-                           2. Also ploted residual plot to check whether a model is a good fit or not.</li>
+<li> Model Selection I    :1. Tested all base models to check the base accuracy.</li>
+<li>                       2. Also ploted residual plot to check whether a model is a good fit or not.</li>
 <li> Model Selection II   :  Performed Hyperparameter tuning using gridsearchCV and randomizedSearchCV.</li>
 <li> Pickle File          :  Selected model as per best accuracy and created pickle file using joblib .</li>
 
