@@ -7,6 +7,7 @@
 Where the dataset contains different features of the mushrooms like gillcolor, sporeprintcolor, population, gillsize, stalk root, bruises, stalkshape etc. The proposed approach will implement a different techniques and algorithms like Decision Tree, Random Forest and Boosting Techniques. Random Forest performed well with 100% accuracy. After we have done hyperparameter tuning and it is deployed on Amazon Web Services (AWS) platform.</p>
 
 
+
 ## Approach used
 <p>The main goal is to predict the fares of the flights based on different factors available in the dataset.</p>
 <pre> 
@@ -19,6 +20,8 @@ Where the dataset contains different features of the mushrooms like gillcolor, s
 <li> Pickle File          :  Selected model as per best accuracy and created pickle file using joblib .</li>
 
 
+
+## Demo
 
 
 
