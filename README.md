@@ -9,7 +9,7 @@ Where the dataset contains different features of the mushrooms like gillcolor, s
 
 
 ## Approach used
-<p>The main goal is to predict the fares of the flights based on different factors available in the dataset.</p>
+<p>The main goal of this project is to predict whether the Mushroom is edible or poisnous </p>
 <pre> 
 <li> Data Exploration     : I started exploring dataset using pandas,numpy,matplotlib and seaborn. </li>
 <li> Data visualization   : Ploted graphs to get insights about dependend and independed variables. </li>
