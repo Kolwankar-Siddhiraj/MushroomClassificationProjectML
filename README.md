@@ -21,7 +21,7 @@ Where the dataset contains different features of the mushrooms like gillcolor, s
 
 
 
-## Deplyment
+## Deployment
 
 link : [http://ec2-3-15-0-43.us-east-2.compute.amazonaws.com:8080/](http://ec2-3-15-0-43.us-east-2.compute.amazonaws.com:8080/)
 
