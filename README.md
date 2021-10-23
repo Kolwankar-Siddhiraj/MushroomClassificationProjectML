@@ -1,4 +1,4 @@
-# Flight Fare Prediction Project
+# Mushroom Classification Project
 
 ## Problem Statement:
 
@@ -25,29 +25,28 @@
 
 **Main Page**
 
-![Screenshot (372)](https://user-images.githubusercontent.com/88200767/132125607-5331d3d3-bfdc-4a72-905b-ba168a7cb9d6.png)
+![image](https://user-images.githubusercontent.com/88200767/138545555-a257613f-5107-4bac-99bc-eb77ae6242e6.png)
 
 
-![Screenshot (373)](https://user-images.githubusercontent.com/88200767/132125630-dd49178e-b88c-451c-a222-438167f3ae28.png)
+![image](https://user-images.githubusercontent.com/88200767/138545562-044b435a-3f35-46ba-9a51-860a83c28cf3.png)
 
 
 
 **Main Page with filled information**
 
-![Screenshot (374)](https://user-images.githubusercontent.com/88200767/132125636-47a2d931-9010-4a43-a2d4-de8fe10c88d2.png)
+![image](https://user-images.githubusercontent.com/88200767/138545579-a3fd78d7-9e7e-4d34-ab20-35847e85687a.png)
 
 
 
-**Main Page After Predicting average Flight Fare**
+**Main Page After Predicting Mushroom is Poisonous or Edible**
 
-![Screenshot (375)](https://user-images.githubusercontent.com/88200767/132125650-8421b779-f66f-4ec0-a734-a9dce61da949.png)
+![image](https://user-images.githubusercontent.com/88200767/138545663-ec88e93d-89ba-4bd7-9635-b76846c09308.png)
 
 
 
 **Data in Database**
 
-![Screenshot (376)](https://user-images.githubusercontent.com/88200767/132125652-1d3a5291-ea3c-49c7-bf4a-e1b7094a2c8a.png)
-
+![image](https://user-images.githubusercontent.com/88200767/138545670-96d10e1b-6b30-47be-b238-aebf3217f5e7.png)
 
 ## Technologies Used
 <pre> 
@@ -64,7 +63,7 @@
 
 
 ## HLD , LLD & WireFrame
-link : https://drive.google.com/drive/folders/1_DhdjzIO776um5f6qzeYBEsiP2DATLFe?usp=sharing
+link : https://drive.google.com/drive/u/0/folders/1ns2RVwHCj0FcPqfWrZcAIRIKqEcLwwwQ
 
 ## Help Me Improve
 <p> Hello Reader if you find any bug please consider raising issue I will address them asap.</p>
